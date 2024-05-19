@@ -1,0 +1,45 @@
+<body>
+    <h1>Website Coming Soon!</h1>
+    <p>Made By Jesse Hoekema</p>
+</body>
+<style>
+    body {
+        background: linear-gradient(90deg, #ffb347, #ffcc66, #adad23);
+        background-size: 400% 400%;
+        animation: gradientAnimation 10s infinite alternate;
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1 {
+        font-family: sans-serif;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    p {
+        position: fixed;
+        bottom: 0px;
+        color: white;
+        font-family: sans-serif;
+        text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.5);
+    }
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    25% {
+        background-position: 50% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    75% {
+        background-position: 50% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+</style>
